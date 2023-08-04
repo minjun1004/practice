@@ -7,19 +7,13 @@
         <link rel="stylesheet" href="practice.css" />
     </head>
     <body>
-        <h1 id="hello">안녕하세요</h1>
-        <h1 id="hi">초보에요</h1>
+        <div class="alert-box" id="alert">알림창</div>
+        <button
+            onclick="document.getElementById('alert').style.display = 'block';"
+        >
+            버튼
+        </button>
 
-        <script>
-            // 자바 스크립트를 이용해  h1 내용 "안녕하세요"를 "안녕으로 변경"
-            document.getElementById("hello").innerHTML = "안녕";
-            // 자바 스크립트를 이용해 h1 내용 '안녕하세요'의 색깔을 red 로 변경
-            document.getElementById("hello").style.color = "red";
-            document.querySelector("#hi").innerHTML = "Js 고수에요";
-            //자바 스크립트를 이용해 h1 내용 '안녕'의 fontsize 을 16px 로 변경
-            // fontsize 변경이 s를 대문자로 바꿔야함
-            document.getElementById("hello").style.fontSize = "16px";
-        </script>
-        <!-- <script src="practice.js"></script> -->
+        <script></script>
     </body>
 </html>
